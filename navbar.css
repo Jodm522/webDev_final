@@ -1,0 +1,41 @@
+/* sidebar #001b2f */
+/* cursor #4ce9d9*/
+a{text-decoration: none;}
+.navbar{
+    margin: 0;
+  background-color: #001b2e;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.buttonSelected{
+
+}
+.nav_buttons{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.home_button{
+    align-self: center;
+    font-size: 20px;
+}
+.nav_button{
+    display: flex;
+   align-items: center;
+    height: 50px;
+    width: 250px;
+    background-color: #012334;
+}
+.nav_title{
+    font-size: 18px;
+    display: flex;
+}
+
+.header_icon{
+    height:20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

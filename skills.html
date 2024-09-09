@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script id ="navbar_replacer" src ="navbar.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar_hold"></div>
+    <span class="fake_html_yellow">const</span><span class="fake_html_pale_blue"> pageTitle</span> = <span class="fake_html_orange">"Skills"</span> 
+    <br>
+    <br>
+    <span class="fake_html_yellow">class</span> <span class="fake_html_red">Javascript</span> <span class="fake_html_yellow">{</span><br>
+        <div class="one_tab">
+        <span class="fake_html_yellow">constructor</span><span class="fake_html_purple">(){</span><br>
+           <span class="fake_html_red two_tabs">this</span>.<span class="fake_html_light_blue">years_of_experience</span> = <span class="fake_html_light_blue">21</span><br>
+            <span class="fake_html_red two_tabs">this</span>.<span class="fake_html_light_blue">add_Frameworks</span><span class = "fake_html_deep_blue">(</span>[<span class="fake_html_orange"> "React"</span>,<span class="fake_html_orange"> "Redux"</span>,<span class="fake_html_orange"> "Express"</span>,<span class="fake_html_orange"> "Vue"</span>,<span class="fake_html_orange"> "Angular"</span>]<span class = "fake_html_deep_blue">)</span><br>
+        <span class="fake_html_purple">}</span>
+    </div>
+   <span class="fake_html_yellow" >}</span><br>
+    <br>
+   <span class="fake_html_yellow">class</span> <span class="fake_html_red">Python</span> <span class="fake_html_yellow">{</span><br>
+       <div class="one_tab">
+       <span class="fake_html_yellow">constructor</span><span class="fake_html_purple">(){</span><br>
+          <span class="fake_html_red two_tabs">this</span>.<span class="fake_html_light_blue">years_of_experience</span> = <span class="fake_html_light_blue">15</span><br>
+           <span class="fake_html_red two_tabs">this</span>.<span class="fake_html_light_blue">add_Frameworks</span><span class = "fake_html_deep_blue">(</span>[<span class="fake_html_orange"> "Flask"</span>,<span class="fake_html_orange"> "Pandas"</span>,<span class="fake_html_orange"> "Django"</span>]<span class = "fake_html_deep_blue">)</span><br>
+       <span class="fake_html_purple">}</span>
+   </div>
+  <span class="fake_html_yellow" >}</span><br><br>
+  <span class="fake_html_yellow">function </span><span class="fake_html_light_blue">other_languages</span> <span class="fake_html_yellow">(<span class="fake_html_pale_blue">language</span>)</span><span class="fake_html_yellow">{</span>
+    <div class = "one_tab">
+        <span class="fake_html_yellow">let</span> <span class="fake_html_light_blue">languages</span> = <span class="fake_html_purple">[</span>  <span class="fake_html_orange">"C#"</span>, <span class="fake_html_orange">"C++"</span>, <span class="fake_html_orange">"Ruby"</span>, <span class="fake_html_orange">"Rust"</span>, <span class="fake_html_orange">"SQL"</span>, <span class="fake_html_orange">"COBOL"</span>, <span class="fake_html_orange">GDScript</span><span class="fake_html_purple">]</span><br>
+        <span class="fake_html_pale_blue">languages</span>.<span class="fake_html_light_blue">push</span><span class="fake_html_purple">(<span class="fake_html_pale_blue">language</span>)</span>
+    </div>
+    <span class="fake_html_yellow">}</span>
+    <br><br>
+    <span class="fake_html_yellow">async function </span><span class="fake_html_light_blue">other_languages</span><span class="fake_html_yellow">(){</span>
+    <div class="one_tab">
+        <span class="fake_html_yellow">let </span><span class="fake_html_pale_blue">skills</span> = <span class="fake_html_purple">{</span>
+            <div class="one_tab">
+                <span class="fake_html_light_blue">method</span>: <span class="fake_html_orange">'POST'</span>,
+                <br><span class="fake_html_light_blue">software_skills</span>: <span class="fake_html_deep_blue">[</span><span class="fake_html_pale_blue">Ubuntu</span>, <span class="fake_html_pale_blue">Git</span>, <span class="fake_html_pale_blue">Github</span>, <span class="fake_html_pale_blue">Postbird</span>, <span class="fake_html_pale_blue">Excel</span><span class="fake_html_deep_blue">]</span>
+                <br><span class="fake_html_light_blue">certifications</span>: <span class="fake_html_deep_blue">[</span><span class="fake_html_pale_blue">Google_IT_Support_Professional</span>, <span class="fake_html_pale_blue">IBM_data_Science_Professional</span>, <span class="fake_html_pale_blue">IBM_AI_Engineering_Professional</span><span class="fake_html_deep_blue">]</span>
+                <br><span class="fake_html_light_blue">personal_skills</span>: <span class="fake_html_deep_blue">[</span><span class="fake_html_pale_blue">Communication</span>, <span class="fake_html_pale_blue">Levelheadedness</span>, <span class="fake_html_pale_blue">Customer_Service</span>, <span class="fake_html_pale_blue">Error_Handling</span>, <span class="fake_html_pale_blue">Prioritization</span>, <span class="fake_html_pale_blue">OOP</span>, <span class="fake_html_pale_blue">Problem_Solving</span>, <span class="fake_html_pale_blue">Flexibility</span><span class="fake_html_deep_blue">]</span>
+            </div>
+            <span class="fake_html_purple">}</span>
+           <br><span class="fake_html_yellow">const</span><span class="fake_html_pale_blue"> res</span> = <span class="fake_html_yellow">await</span> <span class="fake_html_light_blue">fetch</span><span class="fake_html_purple">(</span><span class="fake_html_orange">`https://localhost:3000/skills`</span>, <span class="fake_html_pale_blue">skills</span><span class="fake_html_purple">)</span>
+           <br> <span class="fake_html_yellow">const</span> <span class="fake_html_pale_blue">data</span> = <span class="fake_html_yellow">await</span> <span class="fake_html_pale_blue">res</span>.<span class="fake_html_light_blue">json</span><span class="fake_html_purple">()</span>
+           <br><span class="fake_html_yellow">return</span> <span class="fake_html_pale_blue">data</span>
+           
+        </div>
+        <span class="fake_html_yellow">}</span>
+  <span class="fake_html_yellow"></span>
+   <span class="fake_html_orange"></span>
+   <span class="fake_html_red"></span>
+   <span class="fake_html_pink"></span>
+   <span class="fake_html_green"></span>
+   <span class="fake_html_purple"></span>
+   <span class="fake_html_pale_blue"></span>
+   <span class="fake_html_deep_blue"></span>
+   <span class="fake_html_light_blue"></span>
+</body>
+</html>

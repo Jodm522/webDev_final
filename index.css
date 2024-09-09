@@ -1,0 +1,99 @@
+*{ color: #b6b1b1;
+font-family: 'Consolas', Courier, monospace;
+font-style: bold;
+font-size: 20px;
+}
+
+body{background-color: #012334; margin:0}
+
+.fake_html_neon{
+color: #75eeb7;
+align-items: center;
+}
+
+.fake_html_yellow{
+    color: #ffc24a;
+    align-items: center;
+    }
+
+.fake_html_orange{
+        color:#d58c45;
+        align-items: center;
+}
+.fake_html_red{
+    color: #ac4b55;
+    align-items: center;
+}
+.fake_html_pink{
+    color: #d07f75;
+    align-items: center;}
+
+.fake_html_green{
+    color: #4ff0bb;
+    align-items: center;
+
+}
+.fake_html_purple{
+    color: #cb71d3;
+    align-items: center;
+}
+.fake_html_pale_blue{
+    color: #7fd0fc;
+    align-items: center;
+}
+.fake_html_deep_blue{
+    color: #0476ff;
+    align-items: center;
+}
+.fake_html_light_blue{
+    color:#4ce9d9;
+    align-items: center;
+}
+
+.line_space{
+    height: 20px; 
+    width:100%
+}
+.one_tab{
+    padding-left: 20px;
+    border-left: 2px solid rgb(102, 102, 102);
+}
+.two_tabs{
+    margin-left: 40px;
+    border-left: 2px solid rgb(102, 102, 102);
+}
+.tab_line{
+    border-left: 1px solid rgb(168, 168, 168);
+    width: 50px;
+    
+}
+.text{
+    font-size: larger;
+}
+.left_right_divided{
+    display: flex;
+    flex-direction: row;
+}
+.jim-pic{
+    width:50%; margin-left: 50px;
+}
+.home_info{
+    width:30%; 
+   display: flex;
+   align-items: center;
+}
+.image_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.fake_html{
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+}
+ #test{
+    color: #ac4b55;
+ }

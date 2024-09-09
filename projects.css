@@ -1,0 +1,9 @@
+.projectImage{
+    height: 250px;
+    margin-left: 50px;
+}
+.big_text{
+    margin: 0 auto;
+    font-size: 50px;
+    cursor: pointer;
+}
